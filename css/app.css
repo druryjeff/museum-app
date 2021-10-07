@@ -1,0 +1,416 @@
+/* Foundation Core Edits */
+
+.grid-container {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+
+/* General */
+
+body {
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	background-color: #F0F0F0;
+	color: #231F20;
+}
+
+h1, h2, h3 {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	margin: 0;
+	line-height: 1;
+}
+
+
+/* Header */
+
+header {
+	background-color: #ffffff;
+	padding: 1.5rem 0;
+}
+
+header img {
+	height: 2rem;
+}
+
+
+/* Main Menu */
+
+.menu-link {
+	text-align: right;
+	display: block;
+	color: #7E7D7D;
+}
+
+.menu-link:hover {
+	color: #231F20;
+}
+
+#main-menu {
+	background-color: #333;
+	padding: 1.5rem;
+}
+
+#main-menu nav {
+	display: flex;
+	height: 100%;
+}
+
+#main-menu ul {
+	margin: auto 0;
+	padding: 0;
+	list-style: none;
+}
+
+#main-menu a {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1;
+	padding: .5rem 0;
+	display: block;
+}
+
+
+/* Hero */
+
+.hero {
+
+}
+
+.hero .orbit-figure {
+	width: 100%;
+}
+
+.hero .orbit-image {
+	width: 100%;
+}
+
+.orbit-caption {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	color: #fff;
+}
+
+.orbit-caption h4 {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: #fff;
+	margin: 0;
+}
+
+.orbit-caption h5 {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.orbit-caption p {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	color: #fff;
+	margin: 0;
+}
+
+.orbit-previous,
+.orbit-next {
+	bottom: 4rem;
+	top: auto;
+}
+
+.orbit-previous:hover,
+.orbit-next:hover {
+	background-color: transparent;
+}
+
+
+/* Events */
+
+.events {
+	padding: 1.5rem 0;
+}
+
+.events h1 {
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.events h1 span {
+	display: block;
+	font-weight: 700;
+	color: #FF443C;
+	font-size: 1.125rem;
+	margin-bottom: 1rem;
+}
+
+.events .card {
+	margin-bottom: 1.5rem;
+}
+
+.events .card:last-child {
+	margin-bottom: 0;
+}
+
+.events .card img {
+	width: 100%;
+}
+
+.events .card-section {
+	padding: 1.5rem;
+}
+
+.events h2 {
+	font-weight: 700;
+	font-size: 3rem;
+	letter-spacing: -1px;
+	margin-bottom: .5rem;
+	line-height: 1;
+}
+
+.events h2 span {
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.events .sponsor {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.events h3 {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.events h3 + p {
+	color: #7E7D7D;
+	margin: 0;
+}
+
+.events h3 + p + p {
+	color: #7E7D7D;
+	margin: 0;
+	line-height: 1;
+}
+
+
+/* Email Sign Up */
+
+.email-sign-up {
+	padding: 1rem 1.5rem 1.5rem;
+}
+
+.email-sign-up h1 {
+	text-transform: uppercase;
+	color: #FF443C;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.email-sign-up p {
+	color: #7E7D7D;
+	line-height: 1.2;
+}
+
+.email-sign-up input {
+	display: inline-block;
+	width: 80%;
+}
+
+.email-sign-up button {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 1rem;
+	color: #FF443C;
+	text-transform: uppercase;
+	margin-left: .5rem;
+}
+
+
+/* Visit */
+
+.visit {
+	padding-bottom: .5rem;
+}
+
+.visit img {
+	margin-bottom: 1.5rem;
+	width: 100%;
+}
+
+.visit h1 {
+	text-transform: uppercase;
+	color: #FF443C;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	line-height: 1;
+}
+
+.visit h2 {
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 1rem;
+}
+
+.visit h3 {
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: .5px;
+	line-height: 1;
+	margin-bottom: 1rem;
+	color: #7E7D7D;
+	font-style: italic;
+	margin-bottom: .5rem;
+}
+
+.visit ul {
+	margin: 0 0 1rem;
+	padding: 0;
+	list-style: none;
+}
+
+
+/* Exhibits */
+
+.exhibits {
+	padding: 0 0 1.5rem 0;
+}
+
+.exhibits img {
+	width: 100%;
+}
+
+.exhibits h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FF443C;
+	font-size: 1.125rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.exhibits h2 {
+	font-weight: 700;
+	margin-bottom: .5rem;
+}
+
+.exhibits h2 span {
+	font-weight: 400;
+	display: block;
+}
+
+.exhibits h2 a {
+	color: #212121;
+}
+
+.exhibits p {
+	color: #7E7D7D;
+}
+
+.exhibits p:last-child {
+	text-transform: uppercase;
+}
+
+
+/* Detail */
+
+.detail {
+	padding: 0 0 1.5rem 0;
+}
+
+.detail img {
+	width: 100%;
+}
+
+.detail h1 {
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #212121;
+	font-size: 1.125rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	color: #FF443C;
+}
+
+.detail h2 {
+	font-weight: 700;
+	color: #212121;
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.detail h2 span {
+	font-weight: 400;
+	display: block;
+}
+
+.detail h2 + p {
+	color: #7E7D7D;
+}
+
+.detail p a {
+	color: #FF443C;
+	text-transform: uppercase;
+}
+
+
+
+
+/* Footer */
+
+footer {
+	
+}
+
+footer .top {
+	background-color: #231F20;
+	padding: 1.5rem 0 0;	
+}
+
+footer .top address {
+	font-style: normal;
+	color: #F0F0F0;
+	margin-bottom: 2rem;
+}
+
+footer .top address strong {
+	font-weight: 700;
+}
+
+footer .top .copyright {
+	margin: 0;
+	color: #BCBCBC;
+	line-height: 1.1;
+	font-size: .75rem;
+	margin-right: 2rem;
+}
+
+footer .bottom {
+	padding: 1rem 0;
+}
+
+footer .bottom li {
+	margin-left: .75rem;
+}
+
+footer .bottom a {
+	padding: 0;
+}
+
+footer .bottom a .fab {
+	color: #7E7D7D;
+	font-size: 1.75rem;
+}
